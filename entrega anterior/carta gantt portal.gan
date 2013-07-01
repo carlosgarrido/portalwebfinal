@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="PORTAL DE SERVICIOS" company="" webLink="" view-date="2013-04-29" view-index="0" gantt-divider-location="248" resource-divider-location="301" version="2.0">
+    <description><![CDATA[Planificacion temporal proyecto]]></description>
+    <view zooming-state="default:2" id="gantt-chart"/>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="55" order="0"/>
+        <field id="1" name="Función" width="44" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <calendar id="1" name="default">
+                <default-week sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+                <overriden-day-types/>
+                <days/>
+            </calendar>
+        </day-types>
+    </calendars>
+    <tasks color="#8cb6ce">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Encuesta de tendencias_0" color="#8cb6ce" meeting="false" start="2012-04-23" duration="3" complete="0" priority="1" expand="true"/>
+        <task id="1" name="Definicion de objetivos" color="#8cb6ce" meeting="false" start="2013-04-29" duration="2" complete="0" priority="1" expand="true"/>
+        <task id="2" name="Elaboracion_funcionesdel sistema_2" color="#8cb6ce" meeting="false" start="2013-05-03" duration="3" complete="0" priority="1" expand="true"/>
+        <task id="3" name="Introduccion_a_herramienta _de -desarrollo_python3a" color="#8cb6ce" meeting="false" start="2013-05-06" duration="8" complete="0" priority="1" expand="true"/>
+        <task id="4" name="Introduccion_herramienta de desarrollo django_4" color="#8cb6ce" meeting="false" start="2013-05-13" duration="5" complete="0" priority="1" expand="true"/>
+        <task id="6" name="Definicion atributos del sistema_6" color="#8cb6ce" meeting="false" start="2013-05-13" duration="6" complete="0" priority="2" expand="true"/>
+        <task id="8" name="Definicion de casos de uso" color="#8cb6ce" meeting="false" start="2013-05-06" duration="11" complete="0" priority="1" expand="true">
+            <notes><![CDATA[21/05/13 - 0:00:00
+
+21/05/13 - 0:00:00]]></notes>
+        </task>
+        <task id="10" name="Entrega primer informe_10" color="#8cb6ce" meeting="true" start="2013-05-22" duration="1" complete="0" priority="1" expand="true"/>
+        <task id="11" name="Segundo Ito Interfaz Grafica paginas web_11" color="#8cb6ce" meeting="true" start="2013-05-31" duration="1" complete="0" priority="1" expand="true"/>
+        <task id="12" name="Desarrollo Interfaz de usuario_12" color="#8cb6ce" meeting="false" start="2013-05-23" duration="2" complete="0" priority="1" expand="true"/>
+        <task id="13" name="Desarrollo interfaz proveeedor_13" color="#8cb6ce" meeting="false" start="2013-05-23" duration="3" complete="0" priority="1" expand="true"/>
+        <task id="14" name="Desarrollo interfaz administrador_14" color="#8cb6ce" meeting="false" start="2013-05-23" duration="5" complete="0" priority="1" expand="true"/>
+        <task id="15" name="tercer Conexion base de datos_15" color="#8cb6ce" meeting="true" start="2013-06-07" duration="1" complete="0" priority="1" expand="true"/>
+        <task id="16" name="Integracion base de datos" color="#8cb6ce" meeting="false" start="2013-05-30" duration="3" complete="0" priority="1" expand="true"/>
+        <task id="17" name="identificacion de mejoras en el diseño_17" color="#8cb6ce" meeting="false" start="2013-05-29" duration="5" complete="0" priority="1" expand="true"/>
+        <task id="18" name="Correccion diagrama casos de uso_18" color="#8cb6ce" meeting="false" start="2013-05-29" duration="6" complete="0" priority="1" expand="true"/>
+        <task id="19" name="cuarto ito segundo informe_19" color="#8cb6ce" meeting="true" start="2013-06-11" duration="3" complete="0" priority="1" expand="true"/>
+        <task id="20" name="Correccion del informe_20" color="#8cb6ce" meeting="false" start="2013-06-06" duration="3" complete="0" priority="1" expand="true"/>
+        <task id="21" name="prototipo version 1_21" color="#8cb6ce" meeting="false" start="2013-06-06" duration="3" complete="0" priority="1" expand="true"/>
+        <task id="22" name="pruebas de prototipo_22" color="#8cb6ce" meeting="false" start="2013-06-06" duration="3" complete="0" priority="1" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpd3" order="1" width="213"/>
+        <displaycolumn property-id="tpd4" order="0" width="15"/>
+        <displaycolumn property-id="tpd5" order="2" width="15"/>
+    </taskdisplaycolumns>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
